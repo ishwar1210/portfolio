@@ -1,0 +1,213 @@
+@media screen and (max-width: 1024px) {
+  .sitename {
+    font-size: 25px;
+    left: 2%;
+  }
+  .social-links {
+    left: 3.5%;
+  }
+  #sidebar img {
+    width: 150px;
+    height: 150px;
+    left: 3%;
+  }
+  
+
+  /* home section */
+  .HOME1 h1 {
+    font-size: 60px;
+    top: 3%;
+    left: 22%;
+  }
+  .HOME1 p {
+    font-size: 40px;
+    top: 5%;
+    left: 23%;
+  }
+  /* about section */
+  .about3 p {
+    font-size: 20px;
+  }
+  .about4 strong {
+    font-size: 20px;
+  }
+  .about4 span {
+    font-size: 17px;
+    display: block;
+    padding-right: 25%;
+  }
+  /* skill section */
+  .skills1 {
+    font-size: 10px;
+    top: 10%;
+    left: 5%;
+  }
+  .skills p {
+    font-size: 20px;
+    top: 10%;
+    left: 2%;
+  }
+  .skills2 {
+    font-size: 10px;
+    top: 10%;
+    left: 30%;
+  }
+  /* contact section  */
+  textarea {
+    position: relative;
+    top: 50%;
+    left: 2%;
+    border: 2px solid #000000;
+  }
+  .iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 769px) {
+  * {
+    margin: 0px;
+  }
+  #sidebar {
+    width: 20%;
+  }
+  .social-links {
+    top: 32%;
+    left: 4%;
+    gap: 10px;
+    font-size: 10px;
+  }
+  .sitename {
+    font-size: 19px;
+    left: 2%;
+  }
+  #sidebar img {
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 4%;
+  }
+  .navbar {
+    font-size: 15px;
+    left: 2%;
+  }
+  /* home section */
+  .HOME1 h1 {
+    font-size: 45px;
+    top: 3%;
+    left: 22%;
+  }
+  .HOME1 p {
+    font-size: 25px;
+    top: 4.2%;
+    left: 25%;
+  }
+  /* about section */
+  .about1 {
+    top: 10%;
+    left: 0%;
+  }
+  .about2 > img {
+    float: left;
+    width: 260px;
+    height: 260px;
+    font-size: 15px;
+    top: 10%;
+  }
+  .about3 {
+    font-size: 15px;
+    top: 10%;
+    left: 2%;
+    float: right;
+    font-weight: 300;
+    padding: 2px 10px 0px 0px;
+  }
+  .about4 {
+    font-size: 15px;
+    /* top: 10%; */
+    display: block;
+  }
+
+  /* skills section */
+  .skills1 {
+    font-size: 10px;
+    top: 10%;
+    left: 2%;
+  }
+  .skills p {
+    font-size: 15px;
+    top: 10%;
+    left: 2%;
+  }
+  .skills2 {
+    font-size: 10px;
+    top: 10%;
+    left: 6%;
+  }
+  /* resume section */
+  .containt {
+    padding-left: 8px;
+  }
+  .col-md-5 {
+    margin: 1px;
+    padding: 0;
+  }
+  .resume-item ul {
+    font-size: 10px;
+  }
+  /* contact section */
+  .info-wrap {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .HOME1 h1 {
+    font-size: 40px;
+    top: 2%;
+  }
+  .HOME1 p {
+    top: 3%;
+  }
+  #vl {
+    display: none;
+  }
+  #sidebar img {
+    width: 70px;
+    height: 70px;
+    left: 8px;
+    top: 100px;
+  }
+  .sitename {
+    width: 100px;
+  }
+  .social-links {
+    position: absolute;
+    top: 35%;
+    display: block;
+    width: 20px;
+    margin: 25px;
+    display: grid;
+  }
+  .github {
+    width: 50px;
+    height: 50px;
+  }
+  .facebook {
+    width: 50px;
+    height: 50px;
+  }
+  .instagram {
+    width: 50px;
+    height: 50px;
+  }
+  .linkedin {
+    width: 50px;
+    height: 50px;
+  }
+  #navbar {
+    position: absolute;
+    left: -150px;
+  }
+}
