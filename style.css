@@ -30,7 +30,7 @@ body {
 /* navbar section */
 .social-links {
   position: fixed;
-  top: 32%;
+  top: 34%;
   left: 5%;
   display: flex;
   gap: 20px;
@@ -41,7 +41,7 @@ body {
   font-weight: 500;
   color: #fff;
   position: fixed;
-  top: 26%;
+  top: 29%;
   left: 3%;
   z-index: 1;
 }
